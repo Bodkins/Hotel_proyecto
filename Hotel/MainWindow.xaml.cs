@@ -23,6 +23,7 @@ namespace Hotel
         public MainWindow()
         {
             InitializeComponent();
+            cuadroDeContenido.Content = new Hotel.Paginas.Inicio();
         }
 
         private void btnApagar_Click(object sender, RoutedEventArgs e)
@@ -34,5 +35,13 @@ namespace Hotel
         {
             DragMove();
         }
+
+        //Cambio de paginas 
+
+        private void goToRooms(object sender, RoutedEventArgs e) => cuadroDeContenido.Content = new Hotel.Paginas.Habitaciones();
+
+        private void goToReservations(object sender, RoutedEventArgs e) => cuadroDeContenido.Content = new Hotel.Paginas.Reservaciones();
+
+        private void goToMaids(object sender, RoutedEventArgs e) => cuadroDeContenido.Content = new Hotel.Paginas.Mucamas();
     }
 }

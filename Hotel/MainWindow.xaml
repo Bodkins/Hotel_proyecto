@@ -18,7 +18,7 @@
         </Grid.RowDefinitions>
 
         <Grid Grid.Column="1" Grid.Row="1" Background="#FFA29F9F">
-            
+            <Frame Name="cuadroDeContenido" NavigationUIVisibility="Hidden"/>
         </Grid>
         <Grid Grid.Row="1">
             <Grid.Background>
@@ -39,28 +39,23 @@
             </Grid>
             <TextBlock Text="Dashboard" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Candara Light" Foreground="White" FontSize="30"/>
             <StackPanel Grid.Row="1" >
-                <Button Margin="10" Height="40">
+                <Button Name="btnHabitaciones" Margin="10" Height="40" Click="goToRooms">
                     <Grid Width="150" >
                         <materialDesign:PackIcon Kind="Hotel" VerticalAlignment="Center"/>
                         <TextBlock HorizontalAlignment="Center" Text="HABITACIONES"/>
                     </Grid>
                 </Button>
-                <Button Margin="10" Height="40">
-                    <Grid Width="150">
-                        <materialDesign:PackIcon Kind="HomeAdd" VerticalAlignment="Center"/>
-                        <TextBlock HorizontalAlignment="Center" Text="RESERVAR"/>
-                    </Grid>
-                </Button>
-                <Button Margin="10" Height="40">
+
+                <Button Name="btnReservaciones" Margin="10" Height="40" Click="goToReservations">
                     <Grid Width="150">
                         <materialDesign:PackIcon Kind="HomeCircle" VerticalAlignment="Center"/>
                         <TextBlock HorizontalAlignment="Center" Text="RESERVACIONES"/>
                     </Grid>
                 </Button>
-                <Button Margin="10" Height="40">
+                <Button Name="btnMucama" Margin="10" Height="40" Click="goToMaids">
                     <Grid Width="150">
                         <materialDesign:PackIcon Kind="PersonMultiple" VerticalAlignment="Center"/>
-                        <TextBlock HorizontalAlignment="Center" Text="EMPLEADOS"/>
+                        <TextBlock HorizontalAlignment="Center" Text="MUCAMA"/>
                     </Grid>
                 </Button>
             </StackPanel>
@@ -70,7 +65,7 @@
                 <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="25" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White">
                     <materialDesign:PackIcon Kind="Bell"/>
                 </Button>
-                <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="25" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White">
+                <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="25" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
                     <materialDesign:PackIcon Kind="Account"/>
                 </Button>
                 <Button x:Name="btnApagar" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="25" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="btnApagar_Click">

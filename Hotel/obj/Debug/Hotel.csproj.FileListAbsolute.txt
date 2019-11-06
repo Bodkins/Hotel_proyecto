@@ -19,3 +19,33 @@ C:\Users\David Hdz\source\repos\Hotel\Hotel\obj\Debug\Hotel.csproj.GenerateResou
 C:\Users\David Hdz\source\repos\Hotel\Hotel\obj\Debug\Hotel.csproj.CopyComplete
 C:\Users\David Hdz\source\repos\Hotel\Hotel\obj\Debug\Hotel.exe
 C:\Users\David Hdz\source\repos\Hotel\Hotel\obj\Debug\Hotel.pdb
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\bin\Debug\Hotel.exe.config
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\bin\Debug\Hotel.exe
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\bin\Debug\Hotel.pdb
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\bin\Debug\MaterialDesignColors.dll
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\obj\Debug\Hotel.csprojAssemblyReference.cache
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\obj\Debug\MainWindow.g.cs
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\obj\Debug\App.g.cs
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\obj\Debug\Hotel_MarkupCompile.cache
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\obj\Debug\Hotel_MarkupCompile.lref
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\obj\Debug\App.baml
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\obj\Debug\MainWindow.baml
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\obj\Debug\Hotel.g.resources
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\obj\Debug\Hotel.Properties.Resources.resources
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\obj\Debug\Hotel.csproj.GenerateResource.cache
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\obj\Debug\Hotel.csproj.CoreCompileInputs.cache
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\obj\Debug\Hotel.csproj.CopyComplete
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\obj\Debug\Hotel.exe
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\obj\Debug\Hotel.pdb
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\obj\Debug\Paginas\Habitaciones.g.cs
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\obj\Debug\Paginas\Inicio.g.cs
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\obj\Debug\Paginas\Mucamas.g.cs
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\obj\Debug\Paginas\Reservaciones.g.cs
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\obj\Debug\Paginas\Habitaciones.baml
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\obj\Debug\Paginas\Inicio.baml
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\obj\Debug\Paginas\Mucamas.baml
+C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\obj\Debug\Paginas\Reservaciones.baml
