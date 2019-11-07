@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MySql.Data;
+using MySql.Data.MySqlClient;
 
 namespace Hotel
 {
@@ -23,7 +25,28 @@ namespace Hotel
         public MainWindow()
         {
             InitializeComponent();
+
             cuadroDeContenido.Content = new Hotel.Paginas.Inicio();
+            string cadenaConexion = "server=localhost; port=3306 ; userid=root ; password=root; database=hotel;";
+            string datos = "";
+            MySqlConnection conexionBD = new MySqlConnection(cadenaConexion);
+            try
+            {
+                conexionBD.Open();
+                MySqlDataReader reader = null;
+                MySqlCommand cmd = new MySqlCommand("SHOW tables;", conexionBD);
+                reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    datos += reader.GetString(0)+ "\n";
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString());
+
+            }
+            MessageBox.Show(datos);
         }
 
         private void btnApagar_Click(object sender, RoutedEventArgs e)

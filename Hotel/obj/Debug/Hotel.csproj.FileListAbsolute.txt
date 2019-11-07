@@ -49,3 +49,37 @@ C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\obj\Deb
 C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\obj\Debug\Paginas\Inicio.baml
 C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\obj\Debug\Paginas\Mucamas.baml
 C:\Users\Job Gonzalez\Documents\GitHub Repositorios\Hotel_proyecto\Hotel\obj\Debug\Paginas\Reservaciones.baml
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\bin\Debug\Hotel.exe.config
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\bin\Debug\Hotel.exe
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\bin\Debug\Hotel.pdb
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\bin\Debug\MaterialDesignColors.dll
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\bin\Debug\MaterialDesignColors.pdb
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Hotel.csprojAssemblyReference.cache
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\MainWindow.g.cs
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Paginas\Habitaciones.g.cs
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Paginas\Inicio.g.cs
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Paginas\Mucamas.g.cs
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Paginas\Reservaciones.g.cs
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\App.g.cs
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Hotel_MarkupCompile.cache
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Hotel_MarkupCompile.lref
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\App.baml
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\MainWindow.baml
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Paginas\Habitaciones.baml
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Paginas\Inicio.baml
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Paginas\Mucamas.baml
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Paginas\Reservaciones.baml
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Hotel.g.resources
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Hotel.Properties.Resources.resources
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Hotel.csproj.GenerateResource.cache
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Hotel.csproj.CopyComplete
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Hotel.exe
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Hotel.pdb
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\bin\Debug\MySql.Data.dll
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\bin\Debug\Google.Protobuf.dll
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\bin\Debug\Renci.SshNet.dll
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\bin\Debug\MySql.Data.xml
