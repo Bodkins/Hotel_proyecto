@@ -25,8 +25,9 @@ namespace Hotel
         public MainWindow()
         {
             InitializeComponent();
-
+            
             cuadroDeContenido.Content = new Hotel.Paginas.Inicio();
+
             string cadenaConexion = "server=localhost; port=3306 ; userid=root ; password=root; database=hotel;";
             string datos = "";
             MySqlConnection conexionBD = new MySqlConnection(cadenaConexion);
@@ -34,7 +35,7 @@ namespace Hotel
             {
                 conexionBD.Open();
                 MySqlDataReader reader = null;
-                MySqlCommand cmd = new MySqlCommand("SHOW tables;", conexionBD);
+                MySqlCommand cmd = new MySqlCommand("DESCRIBE EMPLEADO;", conexionBD);
                 reader = cmd.ExecuteReader();
                 while (reader.Read())
                 {
@@ -46,7 +47,7 @@ namespace Hotel
                 MessageBox.Show(e.ToString());
 
             }
-            MessageBox.Show(datos);
+            //MessageBox.Show(datos);
         }
 
         private void btnApagar_Click(object sender, RoutedEventArgs e)
@@ -65,6 +66,12 @@ namespace Hotel
 
         private void goToReservations(object sender, RoutedEventArgs e) => cuadroDeContenido.Content = new Hotel.Paginas.Reservaciones();
 
-        private void goToMaids(object sender, RoutedEventArgs e) => cuadroDeContenido.Content = new Hotel.Paginas.Mucamas();
+        private void goToMaids(object sender, RoutedEventArgs e) => cuadroDeContenido.Content = new Hotel.Paginas.Reservar();
+
+        private void btnCliente_Click(object sender, RoutedEventArgs e) => cuadroDeContenido.Content = new Hotel.Paginas.AgregarCliente();
+
+        private void Grid_MouseLeftButtonDown(object sender, MouseButtonEventArgs e) => cuadroDeContenido.Content = new Hotel.Paginas.Inicio();
+
+        private void Image_MouseLeftButtonDown(object sender, MouseButtonEventArgs e) => cuadroDeContenido.Content = new Hotel.Paginas.Inicio();
     }
 }

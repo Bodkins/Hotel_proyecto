@@ -5,11 +5,40 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Hotel.Paginas"
       mc:Ignorable="d" 
+     
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Inicio">
 
-    <Grid Background="Black">
-        <Label Content="Página inicio" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Margin="0,0,0,50"/>
-        <Label Content="Hotel Trivago" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Margin="0,50,0,0"/>
+
+
+    <Grid Background="White" Margin="0" >
+        
+        <ScrollViewer HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden" Margin="0" Padding="0" >
+            <StackPanel Orientation="Vertical" Margin="0" HorizontalAlignment="Center">
+                <Image  Source="/Hotel;component/fotosHotel/general/1.jpg" Width="850" />
+                <Image  Source="/Hotel;component/fotosHotel/general/2.jpg" Width="850"/>
+                <Image  Source="/Hotel;component/fotosHotel/general/3.jpg" Width="850"/>
+                <Image  Source="/Hotel;component/fotosHotel/general/4.jpg" Width="850"/>
+                <Image  Source="/Hotel;component/fotosHotel/general/5.jpg" Width="850"/>
+                <Image  Source="/Hotel;component/fotosHotel/general/6.jpg" Width="850"/>
+                <Image  Source="/Hotel;component/fotosHotel/general/7.jpg" Width="850"/>
+                <Image  Source="/Hotel;component/fotosHotel/general/8.jpg" Width="850"/>
+                <Image  Source="/Hotel;component/fotosHotel/general/9.jpg" Width="850"/>
+                <Image  Source="/Hotel;component/fotosHotel/general/10.jpg" Width="850"/>
+                <Image  Source="/Hotel;component/fotosHotel/general/11.jpg" Width="850"/>
+                <Image  Source="/Hotel;component/fotosHotel/general/12.jpg" Width="850"/>
+                <Image  Source="/Hotel;component/fotosHotel/general/13.jpg" Width="850"/>
+                <Image  Source="/Hotel;component/fotosHotel/general/14.jpg" Width="850"/>
+                <Image  Source="/Hotel;component/fotosHotel/general/15.jpg" Width="850"/>
+                <Image  Source="/Hotel;component/fotosHotel/general/16.jpg" Width="850"/>
+                <Image  Source="/Hotel;component/fotosHotel/general/17.jpg" Width="850"/>
+                <Image  Source="/Hotel;component/fotosHotel/general/18.jpg" Width="850"/>
+                <Image  Source="/Hotel;component/fotosHotel/general/19.jpg" Width="850"/>
+                <Image  Source="/Hotel;component/fotosHotel/general/20.jpg" Width="850"/>
+            </StackPanel>
+
+
+
+        </ScrollViewer>
     </Grid>
 </Page>

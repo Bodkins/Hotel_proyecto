@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\App.xaml
-51678276081
+12-904354445
 
-10178955260
+171309099046
 161336676877
-MainWindow.xaml;Paginas\Habitaciones.xaml;Paginas\Inicio.xaml;Paginas\Mucamas.xaml;Paginas\Reservaciones.xaml;
+MainWindow.xaml;Paginas\AgregarCliente.xaml;Paginas\Clientes.xaml;Paginas\deluxe.xaml;Paginas\grantSuite.xaml;Paginas\Habitaciones.xaml;Paginas\Inicio.xaml;Paginas\Mucamas.xaml;Paginas\presidentialSuite.xaml;Paginas\Reservaciones.xaml;Paginas\Reservar.xaml;Paginas\seniorSuite.xaml;
 
 True
 

@@ -75,6 +75,22 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Paginas\AgregarCliente.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Paginas\Clientes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Paginas\deluxe.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Paginas\grantSuite.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Paginas\Habitaciones.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -87,12 +103,36 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Paginas\presidentialSuite.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Paginas\Reservaciones.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Paginas\Reservar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Paginas\seniorSuite.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Paginas\AgregarCliente.xaml.cs">
+      <DependentUpon>AgregarCliente.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Clientes.xaml.cs">
+      <DependentUpon>Clientes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\deluxe.xaml.cs">
+      <DependentUpon>deluxe.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\grantSuite.xaml.cs">
+      <DependentUpon>grantSuite.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Paginas\Habitaciones.xaml.cs">
       <DependentUpon>Habitaciones.xaml</DependentUpon>
     </Compile>
@@ -102,8 +142,17 @@
     <Compile Include="Paginas\Mucamas.xaml.cs">
       <DependentUpon>Mucamas.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Paginas\presidentialSuite.xaml.cs">
+      <DependentUpon>presidentialSuite.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Paginas\Reservaciones.xaml.cs">
       <DependentUpon>Reservaciones.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Reservar.xaml.cs">
+      <DependentUpon>Reservar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\seniorSuite.xaml.cs">
+      <DependentUpon>seniorSuite.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -131,6 +180,56 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="fotosHotel\deluxe\deluxe_1.jpg" />
+    <Resource Include="fotosHotel\deluxe\deluxe_2.jpg" />
+    <Resource Include="fotosHotel\deluxe\deluxe_3.jpg" />
+    <Resource Include="fotosHotel\deluxe\deluxe_4.jpg" />
+    <Resource Include="fotosHotel\deluxe\deluxe_5.jpg" />
+    <Resource Include="fotosHotel\general\1.jpg" />
+    <Resource Include="fotosHotel\general\10.jpg" />
+    <Resource Include="fotosHotel\general\11.jpg" />
+    <Resource Include="fotosHotel\general\12.jpg" />
+    <Resource Include="fotosHotel\general\13.jpg" />
+    <Resource Include="fotosHotel\general\14.jpg" />
+    <Resource Include="fotosHotel\general\15.jpg" />
+    <Resource Include="fotosHotel\general\16.jpg" />
+    <Resource Include="fotosHotel\general\17.jpg" />
+    <Resource Include="fotosHotel\general\18.jpg" />
+    <Resource Include="fotosHotel\general\19.jpg" />
+    <Resource Include="fotosHotel\general\2.jpg" />
+    <Resource Include="fotosHotel\general\20.jpg" />
+    <Resource Include="fotosHotel\general\3.jpg" />
+    <Resource Include="fotosHotel\general\4.jpg" />
+    <Resource Include="fotosHotel\general\5.jpg" />
+    <Resource Include="fotosHotel\general\6.jpg" />
+    <Resource Include="fotosHotel\general\7.jpg" />
+    <Resource Include="fotosHotel\general\8.jpg" />
+    <Resource Include="fotosHotel\general\9.jpg" />
+    <Resource Include="fotosHotel\general\logo.png" />
+    <Resource Include="fotosHotel\grandSuite\grand_suite_1.jpg" />
+    <Resource Include="fotosHotel\grandSuite\grand_suite_2.jpg" />
+    <Resource Include="fotosHotel\grandSuite\grand_suite_3.jpg" />
+    <Resource Include="fotosHotel\grandSuite\grand_suite_4.jpg" />
+    <Resource Include="fotosHotel\grandSuite\grand_suite_5.jpg" />
+    <Resource Include="fotosHotel\grandSuite\grand_suite_6.jpg" />
+    <Resource Include="fotosHotel\presidentialSuite\presidential_suite_1.jpg" />
+    <Resource Include="fotosHotel\presidentialSuite\presidential_suite_10.jpg" />
+    <Resource Include="fotosHotel\presidentialSuite\presidential_suite_11.jpg" />
+    <Resource Include="fotosHotel\presidentialSuite\presidential_suite_2.jpg" />
+    <Resource Include="fotosHotel\presidentialSuite\presidential_suite_3.jpg" />
+    <Resource Include="fotosHotel\presidentialSuite\presidential_suite_4.jpg" />
+    <Resource Include="fotosHotel\presidentialSuite\presidential_suite_5.jpg" />
+    <Resource Include="fotosHotel\presidentialSuite\presidential_suite_6.jpg" />
+    <Resource Include="fotosHotel\presidentialSuite\presidential_suite_7.jpg" />
+    <Resource Include="fotosHotel\presidentialSuite\presidential_suite_8.jpg" />
+    <Resource Include="fotosHotel\presidentialSuite\presidential_suite_9.jpg" />
+    <Resource Include="fotosHotel\seniorSuite\senior_suite_1.jpg" />
+    <Resource Include="fotosHotel\seniorSuite\senior_suite_2.jpg" />
+    <Resource Include="fotosHotel\seniorSuite\senior_suite_3.jpg" />
+    <Resource Include="fotosHotel\seniorSuite\senior_suite_4.jpg" />
+    <Resource Include="fotosHotel\seniorSuite\senior_suite_5.jpg" />
+    <Resource Include="fotosHotel\seniorSuite\seniro_suite_6.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

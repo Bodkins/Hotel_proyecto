@@ -83,3 +83,17 @@ C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\bin\Debug\Google.Protobuf.dll
 C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\bin\Debug\BouncyCastle.Crypto.dll
 C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\bin\Debug\Renci.SshNet.dll
 C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\bin\Debug\MySql.Data.xml
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Paginas\presidentialSuite.g.cs
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Paginas\presidentialSuite.baml
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Paginas\seniorSuite.g.cs
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Paginas\seniorSuite.baml
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Paginas\deluxe.g.cs
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Paginas\grantSuite.g.cs
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Paginas\deluxe.baml
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Paginas\grantSuite.baml
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Paginas\Reservar.g.cs
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Paginas\Reservar.baml
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Paginas\Clientes.g.cs
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Paginas\Clientes.baml
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Paginas\AgregarCliente.g.cs
+C:\Users\David Hdz\Documents\GitHub\hotel\Hotel\obj\Debug\Paginas\AgregarCliente.baml

@@ -6,7 +6,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Hotel"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="1024" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
+        Title="MainWindow" Height="600" Width="1024" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" x:Name="ventana" Icon="fotosHotel/general/logo.png">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="200"/>
@@ -17,13 +17,13 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <Grid Grid.Column="1" Grid.Row="1" Background="#FFA29F9F">
-            <Frame Name="cuadroDeContenido" NavigationUIVisibility="Hidden"/>
+        <Grid Grid.Column="1" Grid.Row="1" Background="White">
+            <Frame Name="cuadroDeContenido" NavigationUIVisibility="Hidden" Margin="0" Padding="0"/>
         </Grid>
         <Grid Grid.Row="1">
             <Grid.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="#FFCBC8C8" Offset="1"/>
+                    <GradientStop Color="#F1F3F6" Offset="1"/>
                     <GradientStop Color="#FFF3EDED"/>
                 </LinearGradientBrush>
             </Grid.Background>
@@ -31,13 +31,13 @@
                 <RowDefinition Height="100"/>
                 <RowDefinition Height="5*"/>
             </Grid.RowDefinitions>
-            <Grid.Effect>
-                <DropShadowEffect BlurRadius="20" Color="#FFDEBEBE" RenderingBias="Quality" ShadowDepth="1"/>
+            <Grid.Effect >
+                <DropShadowEffect BlurRadius="20" Color="#FFDEBEBE" RenderingBias="Quality" ShadowDepth="1" Direction="360" FrameworkElement.FlowDirection="RightToLeft" />
             </Grid.Effect>
-            <Grid Background="#FF712DE8">
-                
+            <Grid Background="#F1F3F6" MouseLeftButtonDown="Grid_MouseLeftButtonDown" >
+
             </Grid>
-            <TextBlock Text="Dashboard" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Candara Light" Foreground="White" FontSize="30"/>
+            <Image Source="fotosHotel/general/logo.png" Width="200" Margin="-10,-34,10,418" Grid.RowSpan="2" MouseLeftButtonDown="Image_MouseLeftButtonDown" />
             <StackPanel Grid.Row="1" >
                 <Button Name="btnHabitaciones" Margin="10" Height="40" Click="goToRooms">
                     <Grid Width="150" >
@@ -46,28 +46,41 @@
                     </Grid>
                 </Button>
 
-                <Button Name="btnReservaciones" Margin="10" Height="40" Click="goToReservations">
+                <Button Name="btnReservaciones" Margin="10" Height="40" Click="goToReservations" >
                     <Grid Width="150">
                         <materialDesign:PackIcon Kind="HomeCircle" VerticalAlignment="Center"/>
                         <TextBlock HorizontalAlignment="Center" Text="RESERVACIONES"/>
                     </Grid>
                 </Button>
-                <Button Name="btnMucama" Margin="10" Height="40" Click="goToMaids">
+                <Button Name="btnReservar" Margin="10" Height="40" Click="goToMaids">
                     <Grid Width="150">
-                        <materialDesign:PackIcon Kind="PersonMultiple" VerticalAlignment="Center"/>
-                        <TextBlock HorizontalAlignment="Center" Text="MUCAMA"/>
+                        <materialDesign:PackIcon Kind="Check" VerticalAlignment="Center"/>
+                        <TextBlock HorizontalAlignment="Center" Text="RESERVAR"/>
+                    </Grid>
+                </Button>
+                <Button Name="btnCliente" Margin="10" Height="40" Click="btnCliente_Click" >
+                    <Grid Width="150">
+                        <materialDesign:PackIcon Kind="Star" VerticalAlignment="Center"/>
+                        <TextBlock HorizontalAlignment="Center" Text="AGREGAR CLIENTE" Margin="10,0,0,0"/>
                     </Grid>
                 </Button>
             </StackPanel>
         </Grid>
-        <Grid x:Name="grdBarra" Grid.ColumnSpan="2" Background="#FF6B3EB8" MouseDown="grdBarra_MouseDown">
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0">
+        <Grid x:Name="grdBarra" Grid.Column="1" Background="#F1F3F6" MouseDown="grdBarra_MouseDown">
+            <Grid.Effect>
                 
-                <Button x:Name="btnApagar" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="50" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="btnApagar_Click">
+                    <DropShadowEffect BlurRadius="20" Color="#FFDEBEBE" RenderingBias="Quality" ShadowDepth="1"/>
+               
+            </Grid.Effect>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0">
+
+                <Button x:Name="btnApagar" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="50" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF673AB7" Click="btnApagar_Click">
                     <materialDesign:PackIcon Kind="Power" Height="30" Width="30"/>
                 </Button>
             </StackPanel>
         </Grid>
+        <Grid Background="#F1F3F6" />
+
 
     </Grid>
 </Window>
